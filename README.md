@@ -26,19 +26,19 @@ Installation
  - npm install
 
 3) Environment Variables: set env variables in server directory
-  PORT=5000
-  MONGO_URI=<your_mongodb_uri>
-  CLIENT_URL=http://localhost:3000
-  ADMIN_EMAIL=<your_admin_email>
-  ADMIN_PASSWORD=<your_admin_password>
-  ADMIN_JWT_SECRET=<your_admin_jwt_secret>
-  USER_JWT_SECRET=<your_user_jwt_secret>
-  AWS_ACCESS_KEY_ID=<your_aws_access_key>
-  AWS_SECRET_ACCESS_KEY=<your_aws_secret_key>
-  AWS_BUCKET_NAME=<your_bucket_name>
-  AWS_REGION=<your_aws_region>
-  EMAIL_USER=<your_email>
-  EMAIL_PASS=<your_email_password>
+  - PORT=5000
+  -  MONGO_URI=<your_mongodb_uri>
+  - CLIENT_URL=http://localhost:3000
+  - ADMIN_EMAIL=<your_admin_email>
+  - ADMIN_PASSWORD=<your_admin_password>
+  - ADMIN_JWT_SECRET=<your_admin_jwt_secret>
+  - USER_JWT_SECRET=<your_user_jwt_secret>
+  - AWS_ACCESS_KEY_ID=<your_aws_access_key>
+  - AWS_SECRET_ACCESS_KEY=<your_aws_secret_key>
+  - AWS_BUCKET_NAME=<your_bucket_name>
+  - AWS_REGION=<your_aws_region>
+  - EMAIL_USER=<your_email>
+  - EMAIL_PASS=<your_email_password>
 
 4) Running the Application
  - cd client
